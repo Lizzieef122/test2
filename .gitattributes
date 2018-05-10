@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+theme: jekyll-theme-cayman
+title: L. Farrow's Github
+description: This github account has been created to enable code-sharing of python scripts. 
+             Currently, work is being done with the McCutcheon lab at the University of Leicester, UK.
