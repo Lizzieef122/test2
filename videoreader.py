@@ -8,7 +8,9 @@ Created on Sun Oct 29 05:54:09 2017
 import moviepy.editor as mv
 from moviepy.video.io.bindings import mplfig_to_npimage
 import matplotlib.pyplot as plt
-
+import numpy as np
+import pickle
+import dill
 
 
 
@@ -55,6 +57,8 @@ bins = 600
 preTrial=10
 trialLength=35
 
+#load rats data
+rats = dill.load(pickle_in)
 
 # Code to choose rat/session and events
 x = rats['PPP1.7'].sessions['s10']
